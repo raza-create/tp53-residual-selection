@@ -1,0 +1,9 @@
+python 3.12.3
+pandas 2.1.4+dfsg
+numpy 1.26.4
+scipy 1.16.3
+PyYAML 6.0.1
+openpyxl 3.1.2
+MDAnalysis 2.10.0
+SigProfilerMatrixGenerator NOT_INSTALLED
+gmx GROMACS version:     2024.4

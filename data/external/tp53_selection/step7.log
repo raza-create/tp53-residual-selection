@@ -1,0 +1,55 @@
+events = 1819 | alleles tested = 990 | sum(E) = 1819.0
+
+Number of alleles tested          = 990
+Alleles with observed count >= 2  = 217
+Alleles with observed count >= 5  = 85
+Alleles with observed count >= 10 = 46
+
+FDR < 0.05 residual-enriched alleles = 43
+FDR < 0.10 residual-enriched alleles = 47
+
+Top 30 by empirical P (ties broken by O/E)
+Mutation  Observed  Expected  Observed_over_Expected  empirical_P      FDR  N_cancer_types      RFS                                                 Cancer_types
+   P278A         8    0.3409                   23.47        1e-05  0.00055               4 -0.06676                                      LUSC,BRCA,COADREAD,BLCA
+   R273S         6    0.2861                   20.97        1e-05  0.00055               5  -0.2611                                     LUAD,STAD,BLCA,UCEC,LIHC
+   G266V        10    0.6081                   16.44        1e-05  0.00055               6   0.1058                               LUSC,OV,COADREAD,LUAD,GBM,PAAD
+   R273L        23     2.122                   10.84        1e-05  0.00055               6   0.6611                                  LUSC,OV,BRCA,LUAD,BLCA,UCEC
+   I195T        20     2.006                   9.971        1e-05  0.00055               7   0.8392                          OV,HNSC,BRCA,COADREAD,STAD,UCEC,GBM
+   Y220C        42     4.557                   9.216        1e-05  0.00055              11   0.8701      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,UCEC,GBM,LIHC,PAAD
+   C176F        21     3.055                   6.874        1e-05  0.00055               8   0.9574                    LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA
+   V157F        26     3.968                   6.552        1e-05  0.00055               6   0.9285                              LUSC,OV,HNSC,COADREAD,LUAD,LIHC
+   Y163C        20     3.299                   6.062        1e-05  0.00055               6   0.9425                              LUSC,OV,HNSC,BRCA,COADREAD,LUAD
+   H179R        25     4.171                   5.994        1e-05  0.00055              10   0.8741           LUSC,OV,HNSC,BRCA,COADREAD,STAD,BLCA,UCEC,GBM,PAAD
+   G245V        15     2.763                   5.429        1e-05  0.00055               6   0.9102                                LUSC,HNSC,LUAD,BLCA,UCEC,PAAD
+   Y234C        15     2.868                    5.23        1e-05  0.00055               5   0.8827                                        LUSC,OV,HNSC,BRCA,GBM
+   L194R        13     2.529                   5.141        1e-05  0.00055               7    1.038                          OV,HNSC,BRCA,COADREAD,LUAD,GBM,LIHC
+   R249S        24     4.934                   4.864        1e-05  0.00055               6     0.99                                LUSC,HNSC,LUAD,STAD,BLCA,LIHC
+   R158L        21     4.797                   4.377        1e-05  0.00055               3   0.9429                                               LUSC,HNSC,LUAD
+   H193R        19     4.426                   4.293        1e-05  0.00055              10   0.8995               LUSC,OV,HNSC,BRCA,LUAD,STAD,BLCA,UCEC,GBM,LIHC
+   R248Q        81     25.83                   3.135        1e-05  0.00055              11   0.7798      LUSC,OV,HNSC,BRCA,COADREAD,STAD,BLCA,UCEC,GBM,LIHC,PAAD
+   R175H       114     46.58                   2.447        1e-05  0.00055              12   0.9792 LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,LIHC,PAAD
+   P278R         5    0.2153                   23.22        2e-05 0.001042               3 -0.01298                                                 LUSC,OV,BLCA
+   D281Y         7    0.8338                   8.395        3e-05  0.00135               6   0.2775                                  LUSC,OV,HNSC,BRCA,LUAD,UCEC
+   Y236C        13     3.093                   4.203        3e-05  0.00135               7    0.915                         LUSC,OV,HNSC,COADREAD,LUAD,BLCA,UCEC
+   R248W        60     32.76                   1.832        3e-05  0.00135              11   0.8812      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   R282W        64     37.98                   1.685        9e-05 0.003874              11   0.9444      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   C275F         7     1.008                   6.947       0.0001 0.004125               4   0.4896                                          HNSC,LUAD,UCEC,PAAD
+   R280G         5    0.4428                   11.29      0.00015 0.005711               3   0.3047                                               LUSC,HNSC,LUAD
+   R175C         6    0.7953                   7.544      0.00015 0.005711               3  -0.7591                                           COADREAD,STAD,UCEC
+   E171K         3   0.09668                   31.03      0.00018   0.0066               3  -0.8953                                               LUAD,STAD,BLCA
+   E285K        20     8.158                   2.452       0.0002 0.007071               5   0.9485                                 HNSC,BRCA,COADREAD,LUAD,BLCA
+   R273C        59     35.44                   1.665      0.00022  0.00751              11   0.8624      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   D281V         3    0.1413                   21.24      0.00043  0.01419               3  0.05889                                                 OV,BRCA,LUAD
+
+Prespecified hotspot alleles
+Mutation  Observed  Expected  Observed_over_Expected  empirical_P      FDR  N_cancer_types    RFS                                                 Cancer_types
+   R175H       114     46.58                   2.447        1e-05  0.00055              12 0.9792 LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,LIHC,PAAD
+   G245S        29     35.37                  0.8198       0.8804        1              10 0.9141           OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   R248Q        81     25.83                   3.135        1e-05  0.00055              11 0.7798      LUSC,OV,HNSC,BRCA,COADREAD,STAD,BLCA,UCEC,GBM,LIHC,PAAD
+   R248W        60     32.76                   1.832        3e-05  0.00135              11 0.8812      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   R249S        24     4.934                   4.864        1e-05  0.00055               6   0.99                                LUSC,HNSC,LUAD,STAD,BLCA,LIHC
+   R273H        68     46.68                   1.457      0.00175  0.04226              10  0.887           LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,UCEC,GBM,PAAD
+   R282W        64     37.98                   1.685        9e-05 0.003874              11 0.9444      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,BLCA,UCEC,GBM,PAAD
+   Y220C        42     4.557                   9.216        1e-05  0.00055              11 0.8701      LUSC,OV,HNSC,BRCA,COADREAD,LUAD,STAD,UCEC,GBM,LIHC,PAAD
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/residual_selection_alleles.tsv

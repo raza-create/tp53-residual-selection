@@ -1,0 +1,49 @@
+LEAVE-ONE-CANCER-TYPE-OUT PCAWG VALIDATION
+
+Removed cancer         Remaining_n   Observed   Expected      O/E            P
+Biliary-AdenoCA               350         87     40.483    2.149    2.974e-12
+Bone-Epith                    358         88     41.378    2.127    4.167e-12
+Bone-Osteosarc                350         85     40.760    2.085    2.779e-11
+Breast-AdenoCA                334         79     38.799    2.036    4.561e-10
+CNS-Medullo                   357         88     41.198    2.136    3.251e-12
+Eso-AdenoCA                   306         72     36.353    1.981    8.622e-09
+Head-SCC                      354         86     40.803    2.108    1.231e-11
+Kidney-RCC                    357         88     41.290    2.131    3.668e-12
+Liver-HCC                     308         80     36.127    2.214    3.835e-12
+Lymph-BNHL                    340         86     39.370    2.184    1.505e-12
+Lymph-CLL                     353         86     40.707    2.113    1.059e-11
+Myeloid-MPN                   356         88     41.042    2.144    2.614e-12
+Ovary-AdenoCA                 317         71     37.491    1.894    7.428e-08
+Panc-AdenoCA                  260         66     27.212    2.425    6.219e-12
+Panc-Endocrine                357         87     41.260    2.109    8.967e-12
+Prost-AdenoCA                 346         87     39.705    2.191    9.915e-13
+Skin-Melanoma                 350         86     40.509    2.123    7.882e-12
+Stomach-AdenoCA               350         86     40.661    2.115    9.668e-12
+
+Minimum leave-one-cancer O/E = 1.894
+Maximum leave-one-cancer P   = 7.428e-08
+Cancer whose removal weakens replication most = Ovary-AdenoCA (O/E 1.894, P 7.428e-08)
+All 18 remain P < 0.05:  YES
+All 18 remain P < 0.001: YES
+
+For reference, per-cancer contribution (not a test):
+                  n  obs     exp  O_over_E
+ct                                        
+Panc-AdenoCA     99   22  14.268     1.542
+Eso-AdenoCA      53   16   5.126     3.121
+Liver-HCC        51    8   5.352     1.495
+Ovary-AdenoCA    42   17   3.989     4.262
+Breast-AdenoCA   25    9   2.680     3.358
+Lymph-BNHL       19    2   2.109     0.948
+Prost-AdenoCA    13    1   1.774     0.564
+Skin-Melanoma     9    2   0.971     2.060
+Biliary-AdenoCA   9    1   0.996     1.004
+Bone-Osteosarc    9    3   0.719     4.171
+Stomach-AdenoCA   9    2   0.818     2.444
+Lymph-CLL         6    2   0.772     2.589
+Head-SCC          5    2   0.676     2.959
+Myeloid-MPN       3    0   0.438     0.000
+Kidney-RCC        2    0   0.189     0.000
+Panc-Endocrine    2    1   0.220     4.554
+CNS-Medullo       2    0   0.281     0.000
+Bone-Epith        1    0   0.102     0.000

@@ -1,0 +1,20 @@
+# fetching TP53 CDS and genomic sequence from Ensembl GRCh37 REST
+# CDS length 1182 nt (394 codons); 10 CDS blocks
+# translated protein length 394; starts MEEPQS ; residue 175=R 248=R 273=R
+# genomic->CDS check, first 9 nt: ATGGAGGAG vs CDS ATGGAGGAG
+
+# candidate DBD missense SNVs: 1304 over 199 residues
+# distinct protein changes: 1175 | distinct SBS96 channels used: 96/96
+# residues where our WT aa disagrees with SGE aa_ref: 0
+# candidates with CRISPR RFS: 1102 / 1304 (84.5%); residues covered 167
+
+# per-substitution-type breakdown of candidates:
+sub
+C>A    231
+C>G    261
+C>T    192
+T>A    208
+T>C    192
+T>G    220
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/tp53_dbd_candidate_missense_snvs.tsv

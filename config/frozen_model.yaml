@@ -1,0 +1,106 @@
+genome_build: GRCh37/hg19
+transcript: ENST00000269305 / NM_000546
+residue_interval:
+- 126
+- 292
+n_nucleotide_candidates: 1102
+n_protein_alleles: 990
+tcga_events: 1819
+tcga_cancer_types: 12
+pcawg_donors: 359
+pcawg_events: 367
+pcawg_residual23_carriers: 88
+seed: 20260929
+n_folds: 5
+m4_loglik: -9793.69
+m3_loglik: -9799.317
+standardization_tcga_990:
+  R:
+    mean: 0.07304965353535355
+    sd_ddof0: 0.8675901697896737
+  D:
+    mean: 0.739334104040404
+    sd_ddof0: 0.6098087389149276
+  N:
+    mean: 0.27224689898989907
+    sd_ddof0: 0.647976211500184
+  E:
+    mean: 0.19550167676767674
+    sd_ddof0: 0.7353762806285882
+  H:
+    mean: 0.02367421515151515
+    sd_ddof0: 0.1537479515814835
+predictor_orientation:
+  R: CRISPR rfs_crispr; higher = greater loss of function
+  D: Giacomelli A549_p53WT_Nutlin-3_Z-score; higher = stronger dominant-negative
+  N: Giacomelli A549_p53NULL_Nutlin-3_Z-score; as published
+  E: NEGATED Giacomelli A549_p53NULL_Etoposide_Z-score; higher = greater disruption
+  H: Halim mean_nutlin3-dox-37_vs_nutlin3-37; higher = greater HSF1 potentiation
+signature_basis:
+  tcga: COSMIC_v3_SBS_GRCh37 WES-renormalised; exome 96/1536 opportunities
+  pcawg: COSMIC_v3_SBS_GRCh37 genome; genome 96/1536 opportunities
+residual23:
+- C176F
+- C242F
+- D281E
+- D281V
+- D281Y
+- E171K
+- G245D
+- G266V
+- H179R
+- H193R
+- I195T
+- R158L
+- R175C
+- R175H
+- R248Q
+- R249S
+- R273L
+- S241F
+- V157F
+- V173L
+- Y163C
+- Y220C
+- Y234C
+m4_coefficients_validation_frozen:
+  R: 1.0031
+  D: 0.7109
+  N: -0.0912
+  E: 0.453
+  H: 0.0876
+m4_coefficients_full:
+  R: 1.003163352061155
+  D: 0.7108895149335099
+  N: -0.09112849144801613
+  E: 0.45292524889611196
+  H: 0.08758811158293273
+m4_exact_se_full:
+  R: 0.07515429202758504
+  D: 0.04371055173625921
+  N: 0.05345199493569248
+  E: 0.05191839600749569
+  H: 0.02621718704762394
+m4_loglik_full: -9793.689541563994
+m4_max_gradient_at_optimum: 0.0001818989404503292
+coefficient_usage_note: m4_coefficients_validation_frozen are the 4-dp values prospectively
+  used to generate ALL reported PCAWG validation statistics (set-based and threshold-free);
+  they must not be substituted. m4_coefficients_full are the authoritative full-precision
+  refit used for the manuscript coefficient table only. Max absolute difference 7.5e-05;
+  no reported result changes.
+exp_beta_interpretation: exp(beta) = multiplicative change in an allele's UNNORMALISED
+  relative selection weight per 1-SD increase in the standardized predictor, holding
+  other predictors fixed. Because allele probabilities are normalised across each
+  patient's candidate set, these are neither probability ratios nor odds ratios.
+reported_results:
+  pcawg_expected_carriers: 41.489384972751694
+  pcawg_OE: 2.121024451381825
+  pcawg_exact_carrier_P: 4.864447861402206e-12
+  threshold_free_observed_ranksum: 258838
+  threshold_free_exact_P: 2.743e-24
+  threshold_free_Z: 9.827
+  top3_removed_exact_P: 1.631e-09
+  top3_removed_Z: 5.901
+  pcawg_expected_carriers_with_replacement: 41.47930640939279
+canonical_validation_file: pcawg_validation_donor_probs_WOR.tsv (without-replacement;
+  primary)

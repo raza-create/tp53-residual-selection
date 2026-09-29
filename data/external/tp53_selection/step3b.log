@@ -1,0 +1,14 @@
+COSMIC signatures in matrix but absent from exposures: ['SBS84', 'SBS85']
+exome/genome trinucleotide ratio: min 0.0087 median 0.0203 max 0.0636
+
+                                      Genome matrix  WES-renormalized matrix
+Median cosine                                0.8269                   0.8551
+IQR low                                      0.7305                   0.7547
+IQR high                                     0.9097                   0.9335
+5th percentile                               0.5850                   0.6050
+Minimum                                      0.1407                   0.1704
+Median |cosine - reported|                   0.0274                   0.0037
+Spearman(cosine, reported)                   0.9598                   0.9914
+
+n samples = 9493
+Saved: .../reconstruction_qc_genome_vs_wes.tsv and COSMIC_v3_SBS_GRCh37_WESrenorm.txt

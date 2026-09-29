@@ -1,0 +1,44 @@
+EXPECTED mutation-supply distributions (66 pairs)
+Mean pairwise Wasserstein distance = 0.03935
+Median                             = 0.03357
+Min                                = 0.00359
+Max                                = 0.11795
+
+OBSERVED tumour distributions
+Mean pairwise Wasserstein distance = 0.06515
+Median                             = 0.05983
+Min                                = 0.02143
+Max                                = 0.15303
+
+Observed / expected mean-distance ratio = 1.6556
+
+Top 10 pairs by expected distance
+Cancer_A  Cancer_B  W_expected  W_observed
+BLCA      LIHC          0.11795     0.10826
+OV        BLCA          0.11492     0.12528
+BLCA      PAAD          0.09976     0.15303
+STAD      BLCA          0.09582     0.09366
+BLCA      GBM           0.09311     0.14328
+COADREAD  BLCA          0.09109     0.10416
+LUSC      BLCA          0.08843     0.10739
+LUAD      BLCA          0.08588     0.08224
+BLCA      UCEC          0.07865     0.08130
+BRCA      BLCA          0.07004     0.10710
+
+Context: spread of each distribution's own RFS
+Cancer      exp_mean     exp_SD   obs_mean     obs_SD
+LUSC          0.0241     0.8480     0.8573     0.2625
+OV            0.0498     0.8608     0.8637     0.1973
+HNSC          0.0043     0.8635     0.8645     0.2149
+BRCA          0.0056     0.8667     0.8582     0.2905
+COADREAD      0.0200     0.8693     0.8443     0.2776
+LUAD          0.0213     0.8434     0.8088     0.3258
+STAD          0.0292     0.8649     0.8346     0.3817
+BLCA         -0.0629     0.8702     0.7565     0.4794
+UCEC          0.0117     0.8660     0.8019     0.3577
+GBM           0.0226     0.8700     0.8874     0.2452
+LIHC          0.0525     0.8561     0.8508     0.2448
+PAAD          0.0296     0.8689     0.8772     0.1380
+
+universe RFS: mean 0.0569 SD 0.8707 range -2.3365..1.1731
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/wasserstein_pairs.tsv

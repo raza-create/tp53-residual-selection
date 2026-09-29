@@ -1,0 +1,102 @@
+PCAWG missense SNP rows = 383
+Rows with unambiguous ALT = 383
+Rows with ambiguous ALT = 0
+
+Universe rows = 1102
+Unique genomic SNVs = 1102
+Unique protein alleles = 990
+
+=== EXACT 126-292 MAPPING ===
+Mapped PCAWG rows = 371
+Unique tumour samples = 363
+Unique donors = 359
+Unique protein alleles = 152
+Events mapping >1 universe row = 0
+Unmapped rows = 12 | unmapped INSIDE universe span = 0 <-- investigate if >0
+
+=== DONOR-LEVEL DATASET ===
+Unique donor-variant events = 367
+Unique donors = 359
+
+Donors with >1 distinct TP53 126-292 missense allele:
+Donor_ID
+DO1076      2
+DO218773    2
+DO34608     2
+DO45037     2
+DO50345     2
+DO50350     2
+DO50390     2
+DO51541     2
+
+Projects after donor-event deduplication:
+Project_Code
+Panc-AdenoCA       101
+Eso-AdenoCa         56
+Liver-HCC           52
+Ovary-AdenoCA       42
+Breast-AdenoCa      26
+Lymph-BNHL          19
+Prost-AdenoCA       13
+Bone-Osteosarc       9
+Skin-Melanoma        9
+Biliary-AdenoCA      9
+Stomach-AdenoCA      9
+Lymph-CLL            6
+Head-SCC             6
+Kidney-RCC           2
+Panc-Endocrine       2
+CNS-Medullo          2
+Myeloid-MPN          2
+Myeloid-AML          1
+Bone-Epith           1
+
+=== FROZEN 23-ALLELE OVERLAP ===
+Residual alleles observed = 18 / 23
+Donor-level residual events = 88
+Unique donors carrying >=1 residual allele = 88
+
+Mutation  PCAWG_donor_count  N_projects
+   R175H                 18           8
+   R248Q                 14           7
+   Y220C                 14           6
+   H179R                  5           4
+   I195T                  5           3
+   G245D                  4           3
+   H193R                  4           3
+   R273L                  4           3
+   S241F                  4           4
+   C176F                  3           2
+   Y163C                  3           3
+   C242F                  2           1
+   V157F                  2           2
+   Y234C                  2           2
+   D281E                  1           1
+   G266V                  1           1
+   R249S                  1           1
+   V173L                  1           1
+   D281V                  0           0
+   D281Y                  0           0
+   E171K                  0           0
+   R158L                  0           0
+   R175C                  0           0
+
+Top 15 alleles overall in PCAWG 126-292:
+Mutation  PCAWG_donor_count  N_projects
+   R273H                 23           7
+   R175H                 18           8
+   R282W                 17           6
+   R248Q                 14           7
+   Y220C                 14           6
+   R273C                 13           6
+   R248W                 12           7
+   G245S                  9           4
+   M237I                  6           5
+   K132N                  5           4
+   I195T                  5           3
+   H179R                  5           4
+   S241P                  4           3
+   R273L                  4           3
+   G245D                  4           3
+
+Saved to /home/raza/p53_thermal_xai/data/external/tp53_selection

@@ -1,0 +1,28 @@
+Primary universe 126-292
+
+Residues:                        167
+Possible SNV missense mutations: 1102
+With CRISPR RFS:                 1102
+Coverage %:                      100.00
+Distinct protein substitutions:  990
+SBS96 channels represented:      96/96
+
+Candidate SNVs in 126-292 still lacking RFS: 0
+
+Cancer      TP53_missense_SNV_126_292  with_matched_SBS  with_CRISPR_RFS  final_usable
+LUSC            254                  228               254            228
+OV              223                  205               223            205
+HNSC            232                  217               232            217
+BRCA            206                  180               206            180
+COADREAD        224                  209               224            209
+LUAD            173                  164               173            164
+STAD            129                  124               129            124
+BLCA            160                  151               160            151
+UCEC            150                  123               150            123
+GBM             107                   99               107             99
+LIHC             63                   55                63             55
+PAAD             64                   64                64             64
+TOTAL          1985                 1819              1985           1819
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/tp53_universe_126_292.tsv
+       /home/raza/p53_thermal_xai/data/external/tp53_selection/tcga_observed_events_126_292.tsv

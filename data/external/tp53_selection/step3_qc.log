@@ -1,0 +1,35 @@
+WES_TCGA.96.csv shape:          (96, 9495)
+Metadata columns:               ['Mutation type', 'Trinucleotide']
+Number of sample columns:       9493
+Number of unique SBS96 channels: 96
+First 10 channel labels:        ['A[C>A]A', 'A[C>A]C', 'A[C>A]G', 'A[C>A]T', 'C[C>A]A', 'C[C>A]C', 'C[C>A]G', 'C[C>A]T', 'G[C>A]A', 'G[C>A]C']
+Duplicate channel labels:       none
+
+Exposure samples:               9493
+Observed SBS96 samples:         9493
+Exact matches:                  9493
+Exposure-only:                  0
+SBS96-only:                     0
+
+Samples shared:                 9493
+Samples with >=1 observed SBS mutation: 9493
+Median observed mutation count:      83
+Median reconstructed mutation count: 83
+
+Cosine similarity:
+  median = 0.8269
+  IQR    = 0.7305 - 0.9097
+  5th pct= 0.5850
+  minimum= 0.1407
+
+Reported reconstruction accuracy:
+  median = 0.8560
+
+Spearman(your cosine, reported accuracy) = 0.9598 (p = 0, n = 9493)
+
+Signature matrix used: COSMIC_v3_SBS_GRCh37.txt
+  source: https://cog.sanger.ac.uk/cosmic-signatures-production/documents/COSMIC_v3_SBS_GRCh37.txt
+  96 channels x 67 signatures, genome (GRCh37) normalised, all columns sum to 1.0
+  65 of 65 exposure signatures matched into the matrix
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/reconstruction_qc.tsv

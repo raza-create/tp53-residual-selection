@@ -1,0 +1,43 @@
+PCAWG WGS RECONSTRUCTION QC
+
+catalogue file used             = WGS_PCAWG.96.csv
+Observed SBS96 catalogue shape  = (96, 2780)
+Observed SBS96 samples          = 2780
+Exposure samples                = 2780
+Exact sample-name matches       = 2780
+
+Signatures in exposure matrix          = 65
+Signatures matched to COSMIC genome mx = 65
+Unmatched exposure signatures          = none
+COSMIC signatures absent from exposures= ['SBS84', 'SBS85']
+full signature list: ['SBS1', 'SBS2', 'SBS3', 'SBS4', 'SBS5', 'SBS6', 'SBS7a', 'SBS7b', 'SBS7c', 'SBS7d', 'SBS8', 'SBS9', 'SBS10a', 'SBS10b', 'SBS11', 'SBS12', 'SBS13', 'SBS14', 'SBS15', 'SBS16', 'SBS17a', 'SBS17b', 'SBS18', 'SBS19', 'SBS20', 'SBS21', 'SBS22', 'SBS23', 'SBS24', 'SBS25', 'SBS26', 'SBS27', 'SBS28', 'SBS29', 'SBS30', 'SBS31', 'SBS32', 'SBS33', 'SBS34', 'SBS35', 'SBS36', 'SBS37', 'SBS38', 'SBS39', 'SBS40', 'SBS41', 'SBS42', 'SBS43', 'SBS44', 'SBS45', 'SBS46', 'SBS47', 'SBS48', 'SBS49', 'SBS50', 'SBS51', 'SBS52', 'SBS53', 'SBS54', 'SBS55', 'SBS56', 'SBS57', 'SBS58', 'SBS59', 'SBS60']
+
+ALL 2780 PCAWG WGS
+n = 2780
+Median observed mutation count      = 5260
+Median reconstructed mutation count = 5259
+Cosine similarity:
+  median = 0.9688
+  IQR    = 0.9545 - 0.9790
+  5th pct= 0.9101
+  minimum= 0.6595
+Reported Accuracy: median = 0.9690
+Median |own cosine - reported Accuracy| = 0.0003
+Spearman(own cosine, reported Accuracy) = 0.9998
+
+validation specimens found in QC set = 359 / 359
+
+359 VALIDATION SPECIMENS
+n = 359
+Median observed mutation count      = 7697
+Median reconstructed mutation count = 7697
+Cosine similarity:
+  median = 0.9732
+  IQR    = 0.9646 - 0.9825
+  5th pct= 0.9477
+  minimum= 0.8756
+Reported Accuracy: median = 0.9730
+Median |own cosine - reported Accuracy| = 0.0003
+Spearman(own cosine, reported Accuracy) = 0.9996
+
+Saved: pcawg_wgs_reconstruction_qc.tsv

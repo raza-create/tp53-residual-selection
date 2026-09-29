@@ -1,0 +1,17 @@
+EXACT THRESHOLD-FREE PCAWG VALIDATION
+
+Observed rank-sum  = 258838
+Exact null mean    = 184819.578
+Exact null SD      = 7531.828
+Exact 95% interval = 170046 - 199565
+Exact upper-tail P = 2.743e-24
+Equivalent validation Z = 9.827
+  (normal-tail check on Z: P = 4.289e-23)
+
+Top-3-removed:
+Observed rank-sum  = 213970
+Exact null mean    = 170392.592
+Exact null SD      = 7384.573
+Exact upper-tail P = 1.631e-09
+Equivalent Z       = 5.901
+  (normal-tail check on Z: P = 1.805e-09)

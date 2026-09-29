@@ -1,0 +1,44 @@
+INDEPENDENT PCAWG VALIDATION
+
+Validation donors                 = 359
+Validation TP53 events            = 367
+Observed frozen-23 carrier donors = 88
+Observed carrier proportion       = 88/359 = 0.2451
+
+Expected carrier donors under frozen model = 41.48
+Expected carrier proportion                = 0.1155
+Observed / expected carrier ratio          = 2.122
+
+Poisson-binomial null:
+mean             = 41.479
+SD               = 6.027
+2.5th percentile = 30
+97.5th percentile= 54
+99.9th percentile= 61
+P(X >= 88)        = 4.816e-12
+
+Specimen-level s_i:
+median = 0.1091
+IQR    = 0.0927 - 0.1380
+5th    = 0.0708
+95th   = 0.1617
+min    = 0.0312
+max    = 0.1709
+
+Donor-level pi_i:
+median = 0.1096
+IQR    = 0.0934 - 0.1393
+5th    = 0.0718
+95th   = 0.1633
+min    = 0.0416
+max    = 0.2495
+
+
+EVENT-LEVEL SENSITIVITY
+
+Observed residual-set events = 88 / 367
+Expected residual-set events = 41.57
+Observed / expected          = 2.117
+Poisson-binomial upper-tail P= 6.18e-12
+
+Saved: pcawg_validation_donor_probs.tsv

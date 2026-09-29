@@ -1,0 +1,43 @@
+candidates 1102 -> distinct protein substitutions 990
+events used = 1819
+
+Cancer      n     beta_t       SE            95% CI
+LUSC       228     2.5557   0.2554     2.0551 - 3.0563
+OV         205     2.5539   0.2835     1.9982 - 3.1095
+HNSC       217     2.6813   0.2869     2.1190 - 3.2436
+BRCA       180     2.5351   0.2936     1.9596 - 3.1105
+COADREAD   209     2.4453   0.2693     1.9174 - 2.9732
+LUAD       164     2.0544   0.2296     1.6043 - 2.5044
+STAD       124     2.2710   0.3164     1.6509 - 2.8911
+BLCA       151     1.6902   0.1872     1.3234 - 2.0571
+UCEC       123     1.9536   0.2606     1.4428 - 2.4643
+GBM         99     3.3754   0.5852     2.2284 - 4.5225
+LIHC        55     2.3483   0.4884     1.3911 - 3.3054
+PAAD        64     3.1446   0.6809     1.8100 - 4.4791
+
+Global beta        = 2.3416
+Global beta 95% CI = 2.1779 - 2.5054
+
+LogLik global model          = -10271.910
+LogLik tissue-specific model = -10260.732
+AIC global                   = 20545.819
+AIC tissue-specific          = 20545.463
+Likelihood-ratio statistic   = 22.356
+df                           = 11
+p                            = 0.02176
+
+Cancer     W_observed_vs_supply   W_observed_vs_fitted_selection
+LUSC                  0.83320                         0.03915
+OV                    0.81446                         0.03771
+HNSC                  0.86022                         0.03156
+BRCA                  0.85265                         0.02599
+COADREAD              0.82440                         0.03338
+LUAD                  0.78782                         0.03869
+STAD                  0.80538                         0.06419
+BLCA                  0.81963                         0.04209
+UCEC                  0.79054                         0.03219
+GBM                   0.86515                         0.03645
+LIHC                  0.80124                         0.03053
+PAAD                  0.84772                         0.03370
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/selection_model_beta.tsv

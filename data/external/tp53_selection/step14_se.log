@@ -1,0 +1,26 @@
+HSF1 variable entering optimizer:
+raw or z-standardized = z-standardized over the 990 alleles
+HSF1 raw SD           = 0.1538
+
+Optimizer beta_H      = 0.0876
+Hessian SE_H (exact observed information) = 0.0262
+  [previous L-BFGS-B hess_inv approximation gave 0.1591 - that value was wrong]
+Wald z  = 3.3403
+Wald p  = 0.0008368
+95% CI  = 0.0362 - 0.1390
+
+M3 logLik = -9799.317
+M4 logLik = -9793.690
+LR = 11.256
+LR p = 0.0007938
+
+Condition number of Hessian  = 17.78
+Smallest Hessian eigenvalue  = 166.5
+Profile-likelihood 95% CI for beta_H = 0.0363 - 0.1391
+
+All exact SEs for M4:
+  beta_R     = +1.0031  SE 0.0752  z +13.35  95% CI +0.8558 - +1.1504
+  beta_D     = +0.7109  SE 0.0437  z +16.26  95% CI +0.6252 - +0.7966
+  beta_N     = -0.0912  SE 0.0535  z -1.71  95% CI -0.1959 - +0.0136
+  beta_E     = +0.4530  SE 0.0519  z +8.73  95% CI +0.3512 - +0.5548
+  beta_HSF1  = +0.0876  SE 0.0262  z +3.34  95% CI +0.0362 - +0.1390

@@ -1,0 +1,17 @@
+SESSION SUMMARY - Wed Jan 21 04:29:49 PM KST 2026
+
+COMPLETED:
+- 100ns simulations (6 temps, all DONE)
+- Feature extraction (60,006 frames)
+- XAI analysis (LOTO MAE = 44K)
+
+NEXT TODO:
+- Try classification approach (Low vs High temp)
+- Create publication figures
+- Update manuscript
+
+FILES CREATED TODAY:
+- data/features_100ns/all_features_100ns.csv
+- results/figures/xai/shap_summary_100ns.png
+- scripts/extract_features_100ns.py
+

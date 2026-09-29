@@ -1,0 +1,40 @@
+SIGNATURE FILE
+shape = (2780, 68)
+columns = ['Cancer Types', 'Sample Names', 'Accuracy', 'SBS1', 'SBS2', 'SBS3', 'SBS4', 'SBS5'] ... ['SBS58', 'SBS59', 'SBS60']
+   Cancer Types Sample Names  Accuracy  SBS1  SBS2  SBS3  SBS4  SBS5
+Biliary-AdenoCA     SP117655     0.968  1496  1296     0     0  1825
+Biliary-AdenoCA     SP117556     0.963   985     0     0     0   922
+Biliary-AdenoCA     SP117627     0.973  1110   528     0     0  1453
+
+SAMPLE SHEET
+shape = (7255, 12)
+columns = ['donor_unique_id', 'donor_wgs_exclusion_white_gray', 'submitter_donor_id', 'icgc_donor_id', 'dcc_project_code', 'aliquot_id', 'submitter_specimen_id', 'icgc_specimen_id', 'submitter_sample_id', 'icgc_sample_id', 'dcc_specimen_type', 'library_strategy']
+
+VALIDATION DATA
+donors = 359
+tumour barcodes = 359
+
+Relevant sample-sheet columns:
+['donor_unique_id', 'donor_wgs_exclusion_white_gray', 'submitter_donor_id', 'icgc_donor_id', 'dcc_project_code', 'aliquot_id', 'submitter_specimen_id', 'icgc_specimen_id', 'submitter_sample_id', 'icgc_sample_id', 'dcc_specimen_type']
+                              donor_unique_id donor_wgs_exclusion_white_gray                   submitter_donor_id icgc_donor_id dcc_project_code                           aliquot_id                submitter_specimen_id icgc_specimen_id                  submitter_sample_id icgc_sample_id             dcc_specimen_type
+BLCA-US::096b4f32-10c1-4737-a0dd-cae04c54ee33                      Whitelist 096b4f32-10c1-4737-a0dd-cae04c54ee33         DO804          BLCA-US e0fccaf5-925a-41f9-b87c-cd5ee4aecb59 27461a27-26eb-4c2c-9c54-e16fbd32c615           SP1682 e0fccaf5-925a-41f9-b87c-cd5ee4aecb59         SA5237         Normal - solid tissue
+BLCA-US::096b4f32-10c1-4737-a0dd-cae04c54ee33                      Whitelist 096b4f32-10c1-4737-a0dd-cae04c54ee33         DO804          BLCA-US 301d6ce3-4099-4c1d-8e50-c04b7ce91450 52f538ef-b05d-4c76-9976-ce6d49158016           SP1677 301d6ce3-4099-4c1d-8e50-c04b7ce91450         SA5195 Primary tumour - solid tissue
+BLCA-US::096b4f32-10c1-4737-a0dd-cae04c54ee33                      Whitelist 096b4f32-10c1-4737-a0dd-cae04c54ee33         DO804          BLCA-US 22e154de-0e3b-443b-8420-48d68d6c1ce4 52f538ef-b05d-4c76-9976-ce6d49158016           SP1677 22e154de-0e3b-443b-8420-48d68d6c1ce4         SA5213 Primary tumour - solid tissue
+BLCA-US::178b28cd-99c3-48dc-8d09-1ef71b4cee80                      Whitelist 178b28cd-99c3-48dc-8d09-1ef71b4cee80         DO555          BLCA-US c1da8eed-4919-4ba5-a735-3fba476c18a7 cd3cfb26-e66f-408e-81f6-3b61c247c976           SP1135 c1da8eed-4919-4ba5-a735-3fba476c18a7         SA1598        Normal - blood derived
+BLCA-US::178b28cd-99c3-48dc-8d09-1ef71b4cee80                      Whitelist 178b28cd-99c3-48dc-8d09-1ef71b4cee80         DO555          BLCA-US 4838b5a9-968c-4178-bffb-3fafe1f6dc09 59d6683f-5eb7-493d-8e8e-78b88be2cd70           SP1132 4838b5a9-968c-4178-bffb-3fafe1f6dc09         SA1556 Primary tumour - solid tissue
+BLCA-US::178b28cd-99c3-48dc-8d09-1ef71b4cee80                      Whitelist 178b28cd-99c3-48dc-8d09-1ef71b4cee80         DO555          BLCA-US f154cc00-e118-4d4c-b9d2-2f1f71e0a964 59d6683f-5eb7-493d-8e8e-78b88be2cd70           SP1132 f154cc00-e118-4d4c-b9d2-2f1f71e0a964         SA1580 Primary tumour - solid tissue
+BLCA-US::1e308b12-0590-4dae-94d0-a539fcf25df7                      Whitelist 1e308b12-0590-4dae-94d0-a539fcf25df7         DO479          BLCA-US d6e91f4c-38c0-4393-9cb7-be076663dff3 59b99c9a-d1c0-4cc0-953b-4358bcf9f392            SP968 d6e91f4c-38c0-4393-9cb7-be076663dff3         SA3784        Normal - blood derived
+BLCA-US::1e308b12-0590-4dae-94d0-a539fcf25df7                      Whitelist 1e308b12-0590-4dae-94d0-a539fcf25df7         DO479          BLCA-US c66c92d5-df65-46e6-861d-d8a98808e6a3 e9889071-4c6e-4761-9d65-06c6b5989fb7            SP967 c66c92d5-df65-46e6-861d-d8a98808e6a3         SA3742 Primary tumour - solid tissue
+BLCA-US::1e308b12-0590-4dae-94d0-a539fcf25df7                      Whitelist 1e308b12-0590-4dae-94d0-a539fcf25df7         DO479          BLCA-US 429f0e9d-c160-4b36-a31b-dab1097c6129 e9889071-4c6e-4761-9d65-06c6b5989fb7            SP967 429f0e9d-c160-4b36-a31b-dab1097c6129         SA3760 Primary tumour - solid tissue
+BLCA-US::24f21425-b001-4986-aedf-5b4dd851c6ad                      Whitelist 24f21425-b001-4986-aedf-5b4dd851c6ad         DO689          BLCA-US f88b2f4c-15f1-4808-bcec-89abc7466de6 1c7630ed-6b1c-4569-a15c-e296772868de           SP1425 f88b2f4c-15f1-4808-bcec-89abc7466de6         SA3769         Normal - solid tissue
+
+Signature file non-SBS columns: ['Cancer Types', 'Sample Names', 'Accuracy']
+  Cancer Types           n_unique=37     example=Biliary-AdenoCA
+      overlap with Tumor_Sample_Barcode: 0 / 359
+      overlap with Donor_ID:             0 / 359
+  Sample Names           n_unique=2780   example=SP117655
+      overlap with Tumor_Sample_Barcode: 0 / 359
+      overlap with Donor_ID:             0 / 359
+  Accuracy               n_unique=163    example=0.968
+      overlap with Tumor_Sample_Barcode: 0 / 359
+      overlap with Donor_ID:             0 / 359

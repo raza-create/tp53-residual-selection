@@ -1,0 +1,47 @@
+LEAVE-ONE-ALLELE-OUT PCAWG VALIDATION
+
+Removed   Observed_carriers   Expected_carriers      O/E            P
+R158L               88              41.316      2.130    3.888e-12
+V157F               86              41.349      2.080    2.572e-11
+H179R               83              40.943      2.027     2.27e-10
+R273L               84              41.104      2.044     1.14e-10
+C176F               85              40.354      2.106    1.819e-11
+G266V               87              41.348      2.104    1.026e-11
+Y220C               74              39.612      1.868    8.485e-08
+I195T               83              40.601      2.044    1.497e-10
+R175H               70              25.512      2.744    2.055e-14
+C242F               86              41.193      2.088    2.116e-11
+R249S               87              39.938      2.178    1.571e-12
+R248Q               74              30.616      2.417    1.013e-12
+D281Y               88              41.315      2.130    3.877e-12
+R175C               88              41.254      2.133    3.601e-12
+E171K               88              41.476      2.122    4.792e-12
+D281E               87              41.383      2.102    1.075e-11
+D281V               88              41.450      2.123     4.63e-12
+G245D               84              40.735      2.062     7.27e-11
+H193R               84              39.843      2.108    2.345e-11
+Y163C               85              40.031      2.123    1.177e-11
+S241F               84              39.973      2.101    2.618e-11
+V173L               87              40.964      2.124     6.22e-12
+Y234C               86              40.525      2.122    8.883e-12
+
+Full frozen-23:
+Observed = 88
+Expected = 41.489
+O/E = 2.121
+P = 4.875e-12
+
+Across 23 leave-one-out tests:
+Minimum O/E = 1.868
+Maximum O/E = 2.744
+Largest P   = 8.485e-08
+Allele whose removal weakens validation most = Y220C (O/E 1.868, P 8.485e-08)
+
+
+TOP-3-REMOVED SENSITIVITY
+
+Remaining frozen alleles = 20
+Observed carrier donors  = 42
+Expected carrier donors  = 12.735
+O/E                      = 3.298
+Poisson-binomial P       = 1.734e-11

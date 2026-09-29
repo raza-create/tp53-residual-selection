@@ -1,0 +1,46 @@
+TIMING MATCH QC
+
+Timing-table rows        = 8469
+TP53 rows in timing table = 1103
+
+Unique timing mutation keys    = 1089
+Duplicate timing mutation keys = 14
+
+sample_id examples in driver table: ['cf2d34c4-c622-11e3-bf01-24c6515278c0', 'f82d2146-726a-d0e0-e040-11ac0c486888', 'f85397dc-e6e9-4f54-e040-11ac0d48706c']
+specimen examples in validation set: ['SP59388', 'SP102103', 'SP111006']
+overlap of sample_id with icgc_specimen_id: 0 / 359
+overlap of sample_id with Tumor_Sample_Barcode: 353
+
+Validation TP53 events = 367
+Matched exactly        = 0
+Unmatched              = 367
+Matched %              = 0.0
+
+Residual23 events      = 88
+Residual23 matched     = 0
+Non-residual events    = 279
+Non-residual matched   = 0
+
+Unique validation donors represented = 0
+
+category values:
+Series([], )
+
+top_category values:
+Series([], )
+
+driver values:
+Series([], )
+
+driver_statement values:
+Series([], )
+
+biallelic values:
+Series([], )
+
+First 10 matched rows:
+Empty DataFrame
+Columns: [Donor_ID, sample_id, Mutation, chr, pos, ref, alt, category, top_category, driver, driver_statement, biallelic]
+Index: []
+
+Saved: pcawg_tp53_driver_annotated.tsv

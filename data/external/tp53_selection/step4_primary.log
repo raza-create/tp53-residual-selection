@@ -1,0 +1,29 @@
+universe = 1102 candidates | observed events = 1819 | cancers = 12
+
+Cancer      n  Observed_mean_RFS  Exact_null_mean_RFS  Delta_RFS  Null_2.5%  Null_97.5%  empirical_P
+LUSC       228             0.8573               0.0241     0.8331    -0.0862      0.1334      0.00001
+OV         205             0.8637               0.0498     0.8139    -0.0698      0.1662      0.00001
+HNSC       217             0.8645               0.0043     0.8602    -0.1102      0.1195      0.00001
+BRCA       180             0.8582               0.0056     0.8526    -0.1220      0.1312      0.00001
+COADREAD   209             0.8443               0.0200     0.8243    -0.0975      0.1385      0.00001
+LUAD       164             0.8088               0.0213     0.7875    -0.1085      0.1503      0.00001
+STAD       124             0.8346               0.0292     0.8053    -0.1241      0.1809      0.00001
+BLCA       151             0.7565              -0.0629     0.8194    -0.2013      0.0761      0.00001
+UCEC       123             0.8019               0.0117     0.7902    -0.1414      0.1647      0.00001
+GBM         99             0.8874               0.0226     0.8647    -0.1503      0.1929      0.00001
+LIHC        55             0.8508               0.0525     0.7983    -0.1748      0.2776      0.00001
+PAAD        64             0.8772               0.0296     0.8477    -0.1854      0.2413      0.00001
+
+GLOBAL CONVERGENCE
+Observed between-cancer variance = 0.00135747
+Median null variance             = 0.00635419
+95% null interval                = 0.00226164 - 0.014564
+Observed/null variance ratio     = 0.2136
+Empirical convergence P          = 0.00292
+
+QC
+Maximum |Monte-Carlo null mean - exact null mean| = 0.000416
+Minimum effective number of candidate mutations across samples = 23.1
+  (median N_eff = 215.8, 5th pct = 75.5)
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/primary_deltaRFS_results.tsv and null_distributions.npz

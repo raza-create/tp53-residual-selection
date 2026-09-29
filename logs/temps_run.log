@@ -1,0 +1,619 @@
+=== equilibrate 248K Sat Jul 25 10:19:18 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_248K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_248K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.329
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_248K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_248K_r1 Sat Jul 25 10:19:22 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_248K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_248K_r2 Sat Jul 25 10:19:22 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_248K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== equilibrate 273K Sat Jul 25 10:19:22 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_273K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_273K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.339
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_273K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_273K_r1 Sat Jul 25 10:19:26 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_273K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_273K_r2 Sat Jul 25 10:19:26 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_273K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== equilibrate 310K Sat Jul 25 10:19:26 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_310K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_310K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.354
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_310K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_310K_r1 Sat Jul 25 10:19:30 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_310K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_310K_r2 Sat Jul 25 10:19:31 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_310K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== equilibrate 350K Sat Jul 25 10:19:31 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_350K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_350K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.37
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_350K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_350K_r1 Sat Jul 25 10:19:35 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_350K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_350K_r2 Sat Jul 25 10:19:35 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_350K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== equilibrate 400K Sat Jul 25 10:19:35 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_400K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_400K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.389
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_400K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_400K_r1 Sat Jul 25 10:19:39 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_400K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_400K_r2 Sat Jul 25 10:19:39 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_400K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== equilibrate 450K Sat Jul 25 10:19:39 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_450K_nvt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_450K_nvt.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.202 to 1.407
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_450K_npt -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_450K_r1 Sat Jul 25 10:19:44 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_450K_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== WT_450K_r2 Sat Jul 25 10:19:44 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_temps
+Command line:
+  gmx mdrun -deffnm WT_450K_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/options/options.cpp (line 177)
+Function:    void gmx::internal::OptionSectionImpl::finish()
+
+Error in user input:
+Invalid input values
+  In option s
+    Required option was not provided, and the default file 'topol' does not
+    exist or is not accessible.
+    The following extensions were tried to complete the file name:
+      .tpr
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+TEMPS DONE Sat Jul 25 10:19:44 AM KST 2026

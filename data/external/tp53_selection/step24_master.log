@@ -1,0 +1,24 @@
+MASTER TABLE QC
+
+Rows = 990
+Unique mutations = 990
+
+Residual23 = 23
+
+Rosetta ddG available = 972 / 990
+RSA available         = 972 / 990
+
+Complete data for:
+CRISPR         = 990
+DNE            = 990
+NullNutlin     = 990
+NullEtoposide  = 990
+HSF1           = 990
+
+PCAWG observed >=1 = 152 / 990
+Residual23 observed in PCAWG = 18 / 23
+
+Any duplicate Mutation rows = NO
+Any missing Residual23 annotations = NO
+
+Saved: /home/raza/p53_thermal_xai/data/external/tp53_selection/tp53_master_table_990.tsv

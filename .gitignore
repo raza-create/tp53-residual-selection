@@ -1,0 +1,28 @@
+# virtualenvs and installed packages
+venv/
+env/
+.venv/
+# force fields and bulk simulation data
+ff/
+data/structures/
+data/features/
+data/features_100ns/
+# bulk analysis outputs
+analysis/
+results/
+archive/
+# large or re-downloadable external inputs (see data/external/checksums.tsv)
+data/external/**/*.maf
+data/external/**/*.gz
+data/external/**/*.tgz
+data/external/**/*.zip
+data/external/**/*.xlsx
+# keep the small frozen derived tables and the manifest
+!data/external/checksums.tsv
+!data/external/tp53_selection/
+!data/external/tp53_selection/*.tsv
+!data/external/tp53_selection/*.log
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+*.so

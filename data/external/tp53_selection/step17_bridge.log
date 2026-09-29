@@ -1,0 +1,59 @@
+validation events         = 367
+validation donors         = 359
+validation tumour aliquots= 359
+
+=== ALIQUOT -> SAMPLE-SHEET MATCH ===
+sample-sheet rows matched          = 359
+unique validation aliquots matched = 359
+unique ICGC specimens              = 359
+unique ICGC donors                 = 359
+validation aliquots missing from sample sheet = 0
+
+Specimen types:
+dcc_specimen_type
+Primary tumour - solid tissue                         264
+Primary tumour - other                                 53
+Primary tumour - lymph node                            17
+Primary tumour - blood derived (peripheral blood)       8
+Metastatic tumour - metastasis to distant location      5
+Metastatic tumour - metastasis local to lymph node      4
+Recurrent tumour - other                                4
+Primary tumour - blood derived (bone marrow)            3
+Cell line - derived from tumour                         1
+
+Aliquots mapping to >1 specimen = 0
+
+events with specimen ID = 367 / 367
+donors with specimen ID = 359 / 359
+
+events with SBS exposure    = 367
+events without SBS exposure = 0
+donors with SBS exposure    = 359 / 359
+tumour specimens with SBS exposure = 359
+
+Donor-ID mismatches = 0
+
+MAF Project_Code -> signature Cancer Types
+Cancer Types    Biliary-AdenoCA Bone-Epith Bone-Osteosarc Breast-AdenoCA CNS-Medullo Eso-AdenoCA Head-SCC Kidney-RCC Liver-HCC Lymph-BNHL Lymph-CLL Myeloid-MPN Ovary-AdenoCA Panc-AdenoCA Panc-Endocrine Prost-AdenoCA Skin-Melanoma Stomach-AdenoCA
+Project_Code                                                                                                                                                                                                                                         
+Biliary-AdenoCA               9                                                                                                                                                                                                                      
+Bone-Epith                               1                                                                                                                                                                                                           
+Bone-Osteosarc                                          9                                                                                                                                                                                            
+Breast-AdenoCa                                                        26                                                                                                                                                                             
+CNS-Medullo                                                                        2                                                                                                                                                                 
+Eso-AdenoCa                                                                                   56                                                                                                                                                     
+Head-SCC                                                                                                6                                                                                                                                            
+Kidney-RCC                                                                                                         2                                                                                                                                 
+Liver-HCC                                                                                                                   52                                                                                                                       
+Lymph-BNHL                                                                                                                             19                                                                                                            
+Lymph-CLL                                                                                                                                         6                                                                                                  
+Myeloid-AML                                                                                                                                                   1                                                                                      
+Myeloid-MPN                                                                                                                                                   2                                                                                      
+Ovary-AdenoCA                                                                                                                                                              42                                                                        
+Panc-AdenoCA                                                                                                                                                                           101                                                           
+Panc-Endocrine                                                                                                                                                                                          2                                            
+Prost-AdenoCA                                                                                                                                                                                                        13                              
+Skin-Melanoma                                                                                                                                                                                                                       9                
+Stomach-AdenoCA                                                                                                                                                                                                                                     9
+
+Saved: pcawg_validation_events_bridged.tsv

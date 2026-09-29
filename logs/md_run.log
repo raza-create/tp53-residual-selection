@@ -1,0 +1,761 @@
+=== WT_r1  Wed Jul 22 04:06:18 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm WT_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   281623.186    23468.601     1200.0
+                         6h31:08
+                 (ns/day)    (hour/ns)
+Performance:      368.151        0.065
+
+GROMACS reminds you: "Science adjusts its views based on what's observed. Faith is the denial of observation so that belief can be preserved." (Tim Minchin)
+
+=== WT_r2  Wed Jul 22 10:37:29 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm WT_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file WT_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   227915.102    18992.926     1200.0
+                         5h16:32
+                 (ns/day)    (hour/ns)
+Performance:      454.906        0.053
+
+GROMACS reminds you: "UNIX is basically a simple operating system. It just takes a genius to understand its simplicity." (Dennis Ritchie)
+
+=== R175H_r1  Thu Jul 23 03:54:03 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R175H_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R175H_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.373
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   227362.271    18946.857     1200.0
+                         5h15:46
+                 (ns/day)    (hour/ns)
+Performance:      456.012        0.053
+
+GROMACS reminds you: "I never see what has been done; I only see what remains to be done." (Marie Curie)
+
+=== R175H_r2  Thu Jul 23 09:09:52 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R175H_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R175H_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.373
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   243747.998    20312.334     1200.0
+                         5h38:32
+                 (ns/day)    (hour/ns)
+Performance:      425.357        0.056
+
+GROMACS reminds you: "Culture eats strategy for breakfast" (Peter Drucker)
+
+=== R248W_r1  Thu Jul 23 02:48:26 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R248W_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R248W_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   237272.943    19772.747     1200.0
+                         5h29:32
+                 (ns/day)    (hour/ns)
+Performance:      436.965        0.055
+
+GROMACS reminds you: "I try to identify myself with the atoms... I ask what I would do If I were a carbon atom or a sodium atom." (Linus Pauling)
+
+=== R248W_r2  Thu Jul 23 08:18:00 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R248W_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R248W_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   228858.214    19071.519     1200.0
+                         5h17:51
+                 (ns/day)    (hour/ns)
+Performance:      453.032        0.053
+
+GROMACS reminds you: "I had trouble with physics in college. When I signed up I thought it said psychics." (Greg Tamblyn)
+
+=== R248Q_r1  Fri Jul 24 01:35:53 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R248Q_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R248Q_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   227476.564    18956.382     1200.0
+                         5h15:56
+                 (ns/day)    (hour/ns)
+Performance:      455.783        0.053
+
+GROMACS reminds you: "RTFM" (B. Hess)
+
+=== R248Q_r2  Fri Jul 24 06:51:51 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R248Q_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R248Q_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   242691.603    20224.302     1200.0
+                         5h37:04
+                 (ns/day)    (hour/ns)
+Performance:      427.209        0.056
+
+GROMACS reminds you: "Can someone please tell Icarus that he's not the only one falling from the sky?" (Urban Dance Squad)
+
+=== R273H_r1  Fri Jul 24 12:28:57 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R273H_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R273H_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   233296.898    19441.409     1200.0
+                         5h24:01
+                 (ns/day)    (hour/ns)
+Performance:      444.412        0.054
+
+GROMACS reminds you: "But I always say, one's company, two's a crowd, and three's a party." (Andy Warhol)
+
+=== R273H_r2  Fri Jul 24 05:53:01 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R273H_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R273H_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   249350.804    20779.236     1200.0
+                         5h46:19
+                 (ns/day)    (hour/ns)
+Performance:      415.800        0.058
+
+GROMACS reminds you: "If your experiment needs a statistician, you need a better experiment." (Ernest Rutherford)
+
+=== R282W_r1  Fri Jul 24 11:39:21 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R282W_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R282W_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   228040.216    19003.353     1200.0
+                         5h16:43
+                 (ns/day)    (hour/ns)
+Performance:      454.657        0.053
+
+GROMACS reminds you: "We haven't the money, so we've got to think." (Ernest Rutherford)
+
+=== R282W_r2  Sat Jul 25 04:56:06 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm R282W_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file R282W_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   230087.396    19173.951     1200.0
+                         5h19:33
+                 (ns/day)    (hour/ns)
+Performance:      450.611        0.053
+
+GROMACS reminds you: "I don’t think we’re afraid of inline assembly." (Szilard Pall)
+
+=== G245S_r1  Sat Jul 25 10:15:42 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file G245S_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== G245S_r2  Sat Jul 25 10:15:43 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file G245S_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== Y220C_r1  Sat Jul 25 10:15:43 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm Y220C_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file Y220C_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== Y220C_r2  Sat Jul 25 10:15:43 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm Y220C_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file Y220C_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/taskassignment/decidegpuusage.cpp (line 812)
+Function:    bool gmx::decideWhetherToUseGpuForUpdate(bool, bool, PmeRunMode, bool, bool, TaskTarget, bool, const t_inputrec&, const gmx_mtop_t&, bool, bool, bool, bool, bool, const MDLogger&)
+
+Inconsistency in user input:
+Update task on the GPU was required,
+but the following condition(s) were not satisfied:
+Compatible GPUs must have been found.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+ALL DONE Sat Jul 25 10:15:44 AM KST 2026
+skip WT_r1 (done)
+skip WT_r2 (done)
+skip R175H_r1 (done)
+skip R175H_r2 (done)
+skip R248W_r1 (done)
+skip R248W_r2 (done)
+skip R248Q_r1 (done)
+skip R248Q_r2 (done)
+skip R273H_r1 (done)
+skip R273H_r2 (done)
+skip R282W_r1 (done)
+skip R282W_r2 (done)
+=== G245S_r1  Tue Jul 28 02:12:17 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+Back Off! I just backed up G245S_r1.log to ./#G245S_r1.log.1#
+Reading file G245S_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+skip WT_r1 (done)
+skip WT_r2 (done)
+skip R175H_r1 (done)
+skip R175H_r2 (done)
+skip R248W_r1 (done)
+skip R248W_r2 (done)
+skip R248Q_r1 (done)
+skip R248Q_r2 (done)
+skip R273H_r1 (done)
+skip R273H_r2 (done)
+skip R282W_r1 (done)
+skip R282W_r2 (done)
+=== G245S_r1  Tue Jul 28 03:01:19 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r1 -cpi G245S_r1.cpt -append -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file G245S_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps (continuing from step 4399000,   8798.0 ps).
+skip WT_r1 (done)
+skip WT_r2 (done)
+skip R175H_r1 (done)
+skip R175H_r2 (done)
+skip R248W_r1 (done)
+skip R248W_r2 (done)
+skip R248Q_r1 (done)
+skip R248Q_r2 (done)
+skip R273H_r1 (done)
+skip R273H_r2 (done)
+skip R282W_r1 (done)
+skip R282W_r2 (done)
+=== G245S_r1  Tue Jul 28 03:02:28 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r1 -cpi G245S_r1.cpt -append -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2024.4
+Source file: src/gromacs/mdrunutility/handlerestart.cpp (line 477)
+Function:    void gmx::{anonymous}::lockLogFile(t_fileio*, const std::filesystem::__cxx11::path&)
+
+System I/O error:
+Failed to lock: G245S_r1.log. Already running simulation?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+=== G245S_r2  Tue Jul 28 03:02:29 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+Back Off! I just backed up G245S_r2.log to ./#G245S_r2.log.1#
+Reading file G245S_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:  1307743.201   108978.601     1200.0
+                         1d06h16:18
+                 (ns/day)    (hour/ns)
+Performance:       72.306        0.332
+
+GROMACS reminds you: "You Crashed Into the Swamps" (Silicon Graphics)
+
+=== G245S_r2  Wed Jul 29 09:17:39 PM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm G245S_r2 -cpi G245S_r2.cpt -append -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+Reading file G245S_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.373
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps (continuing from step 4155400,   8310.8 ps).
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   231662.523    19305.211     1200.0
+                         5h21:45
+                 (ns/day)    (hour/ns)
+Performance:      410.353        0.058
+
+GROMACS reminds you: "We're Gonna Hit You Harder" (Scoter)
+
+=== Y220C_r1  Thu Jul 30 02:39:26 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm Y220C_r1 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+Back Off! I just backed up Y220C_r1.log to ./#Y220C_r1.log.1#
+Reading file Y220C_r1.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   251367.076    20947.258     1200.0
+                         5h49:07
+                 (ns/day)    (hour/ns)
+Performance:      412.465        0.058
+
+GROMACS reminds you: "I Got a Forty Dollar Bill" (F. Zappa)
+
+=== Y220C_r2  Thu Jul 30 08:28:35 AM KST 2026 ===
+                      :-) GROMACS - gmx mdrun, 2024.4 (-:
+
+Executable:   /home/raza/gromacs-cuda/bin/gmx
+Data prefix:  /home/raza/gromacs-cuda
+Working dir:  /home/raza/p53_thermal_xai/data/structures/c36_prod
+Command line:
+  gmx mdrun -deffnm Y220C_r2 -nb gpu -pme gpu -bonded gpu -update gpu -ntmpi 1 -ntomp 12 -pin on
+
+
+Back Off! I just backed up Y220C_r2.log to ./#Y220C_r2.log.1#
+Reading file Y220C_r2.tpr, VERSION 2024.4 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.374
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged and most bonded interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 12 OpenMP threads 
+
+starting mdrun 'Protein in water'
+50000000 steps, 100000.0 ps.
+
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   240829.665    20069.140     1200.0
+                         5h34:29
+                 (ns/day)    (hour/ns)
+Performance:      430.512        0.056
+
+GROMACS reminds you: "It Just Tastes Better" (Burger King)
+
+ALL DONE Thu Jul 30 02:03:06 PM KST 2026

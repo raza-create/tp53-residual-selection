@@ -1,0 +1,29 @@
+THRESHOLD-FREE PCAWG VALIDATION
+
+Alleles ranked from TCGA = 990
+PCAWG events = 367
+PCAWG donors = 359
+
+TCGA residual Z:
+min = -4.677
+median = -0.293
+max = 27.894
+
+Observed PCAWG rank-score T = 261.267
+Null mean T = 186.427
+Null SD = 7.583
+Null 2.5%-97.5% interval = 171.510 - 200.984
+Validation Z = 9.869
+Empirical one-sided P = 9.999e-05  (n_null = 10000)
+
+Mean TCGA residual percentile among:
+all observed PCAWG events = 0.7119
+null expectation          = 0.5080
+
+Sensitivity excluding R175H, R248Q, Y220C:
+Observed T = 215.969
+Null mean = 171.866
+Validation Z = 5.991
+P = 9.999e-05
+
+Saved: tcga_residual_ranks_990.tsv

@@ -1,0 +1,18 @@
+WITHOUT-REPLACEMENT SENSITIVITY
+
+Observed carriers = 88
+
+Expected carriers:
+with replacement    = 41.479
+without replacement = 41.489
+
+O/E without replacement = 2.121
+
+Poisson-binomial:
+mean = 41.489
+SD   = 6.028
+95% interval = 30 - 54
+P(X >= 88) = 4.875e-12
+
+Maximum absolute change in pi among 8 two-event donors = 0.00157
+  (their pi_wr -> pi_wor: 0.0614->0.0627, 0.2495->0.2508, 0.2454->0.2468, 0.1929->0.1933, 0.1165->0.1180, 0.1433->0.1442, 0.2468->0.2483, 0.2423->0.2439)

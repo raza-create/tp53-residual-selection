@@ -1,0 +1,44 @@
+PCAWG SBS1536 BACKGROUND QC
+
+catalogue file                  = WGS_PCAWG.1536.csv
+Observed WGS1536 shape          = (1536, 2780)
+Observed WGS1536 samples        = 2780
+Samples matched to Cancer Types = 2780
+Cancer Types represented        = 37
+
+Genome 1536 opportunities total = 2,858,656,777
+Number of 1536 mutation channels= 1536
+Centre-base/context QC failures = 0
+TP53 SNPs subtracted from background = 367
+
+Cancer_Type           PCAWG_WGS_samples  Background_SBS_mutations
+Biliary-AdenoCA                35                   466,056
+Bone-Epith                     11                    26,121
+Bone-Osteosarc                 38                   164,452
+Breast-AdenoCA                198                 1,412,528
+CNS-Medullo                   146                   209,995
+Eso-AdenoCA                    98                 2,710,225
+Head-SCC                       57                   903,575
+Kidney-RCC                    144                   899,550
+Liver-HCC                     326                 3,925,467
+Lymph-BNHL                    107                 1,269,272
+Lymph-CLL                      95                   226,235
+Myeloid-MPN                    56                    67,263
+Ovary-AdenoCA                 113                   987,471
+Panc-AdenoCA                  241                 1,675,679
+Panc-Endocrine                 85                   258,562
+Prost-AdenoCA                 286                 1,038,969
+Skin-Melanoma                 107                12,120,120
+Stomach-AdenoCA                75                 1,853,399
+
+F_tk distribution across the 18 validation cancer types:
+median          = 0.9398
+5th percentile  = 0.5245
+95th percentile = 1.5664
+minimum         = 0.0392
+maximum         = 9.9125
+Number F_tk < 0.25 = 115
+Number F_tk > 4    = 14
+
+Maximum absolute normalization error = 1.11e-16
+Saved: pcawg_F1536_by_cancer.tsv
