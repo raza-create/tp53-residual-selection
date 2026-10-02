@@ -26,3 +26,6 @@ data/external/**/*.xlsx
 __pycache__/
 .ipynb_checkpoints/
 *.so
+data/external/**/pcawg_sample_sheet.tsv
+*.cif
+*.npz
